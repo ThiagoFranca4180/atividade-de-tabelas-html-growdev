@@ -1,0 +1,103 @@
+/* geral css*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/*navegação*/
+
+.nav-menu{
+    
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+    
+}
+
+.a{
+    margin: 0 30px 0 30px; 
+    font-size: xx-large;
+}
+
+/*conteudo principal da pagina*/
+
+.container{
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+td{
+    border: 1px solid;
+    border-spacing: 0;
+   
+}
+
+/* tabela 1*/
+
+.simple-table{
+    margin-bottom: 50px;
+    border: 0.2px solid ;
+    width: 400px;
+    height: 100px;
+    border-spacing: 0px;
+    font-size: larger;
+}
+
+
+.row-table{
+    margin-bottom: 50px;
+    border: 0.2px solid ;
+    width: 400px;
+    height: 100px;
+    border-spacing: 0px;
+    font-size: larger;
+}
+
+.col-table{
+    margin-bottom: 50px;
+    border: 0.2px solid ;
+    width: 400px;
+    height: 100px;
+    border-spacing: 0px;
+    font-size: larger;
+}
+
+/*tabela 2*/
+
+.site-layout{
+
+    border: 0.2px solid ;
+    width: 600px;
+    height: 600px;
+    border-spacing: 0px;
+    font-size: larger;
+    
+}
+
+/*tabela 3*/
+
+.table-9-1{
+    width: 300px;
+    height: 300px;
+    border: 0.2px solid;
+    margin-bottom: 80px;
+}
+
+.table-9-2{
+    width: 300px;
+    height: 300px;
+    border: 0.2px solid;
+    margin-bottom: 80px;
+}
+
+.table-25-1{
+    width: 300px;
+    height: 300px;
+    border: 0.2px solid;
+    
+}
